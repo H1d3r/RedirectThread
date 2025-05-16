@@ -130,6 +130,3 @@ The following steps describe building with CMake from the command line. If you a
 
     Executables will be located in the respective project output directories (e.g., `x64/Release`).
 
-## Disclaimer
-
-This project is intended for educational and research purposes only. The techniques and tools provided should not be used for any malicious activities. The authors are not responsible for any misuse of the information or code provided. 
