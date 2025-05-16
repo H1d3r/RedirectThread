@@ -2,7 +2,7 @@
 
 This tool explores various techniques for remote code execution and thread manipulation on Windows, originating from the `CONTEXT` struct.
 
-For a detailed explanation of the research and techniques, please refer to our blog post: **[[New Process Injection Class: The CONTEXT-Only Attack Surface](https://blog.fndsec.net/2025/05/16/the-context-only-attack-surface/)]**
+For a detailed explanation of the research and techniques, please refer to our blog post: **[New Process Injection Class: The CONTEXT-Only Attack Surface](https://blog.fndsec.net/2025/05/16/the-context-only-attack-surface/)**
 
 ## TL;DR
 
