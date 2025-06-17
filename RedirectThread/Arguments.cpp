@@ -324,11 +324,11 @@ void print_usage(const char *progName)
               << "  --enter-debug               Pause execution at key points for debugger attachment\n"
 
               << "\nExample:\n"
-              << "  " << progName << " --pid 1234 --inject-dll mydll.dll\n"
+              << "  " << progName << " --pid 1234 --inject-dll\n"
               << "  " << progName << " --pid 1234 --inject-shellcode payload.bin --verbose\n"
               << "  " << progName << " --pid 1234 --inject-shellcode payload.bin --method NtCreateThread\n"
               << "  " << progName << " --pid 1234 --inject-shellcode-bytes 9090c3 --method QueueUserAPC --tid 5678\n"
-              << "  " << progName << " --pid 1234 --inject-shellcode-bytes $bytes --context-method two-step --method NtQueueUserApcThreadEx2 --tid 5678\n"
+              << "  " << progName << " --pid 1234 --inject-shellcode-bytes $bytes --context-method two-step --method NtQueueApcThreadEx2 --tid 5678\n"
 
               << std::endl;
 }
